@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fit AI Tracker</title>
+  <meta name="description" content="Fit AI Tracker — Your Smart AI Food Calorie Partner. Calculate food calories, build plates, and get AI weight-loss tips instantly." />
+  <meta name="keywords" content="fit ai tracker, ai calorie calculator, weightloss, fatloss, healthydiet, foodie, aicalories, calorie counter, fitness tracker, nutrition tracker, diet plan" />
+  <meta name="author" content="Fit AI Tracker" />
+  <meta name="robots" content="index,follow" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fit AI Tracker",
+    "url": "https://ammarabutt2-stack.github.io/fit-ai-tracker/"
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <h1 class="brand">Fit AI Tracker</h1>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#tool">Calorie Tool</a>
+        <a href="#tips">Weight Loss Tips</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="container">
+    <section class="hero card" id="hero">
+      <div class="hero-overlay">
+        <h2>Your Smart AI Food Calorie Partner</h2>
+        <p class="lead">Type any food and get instant calorie estimates, ingredients, and AI weight-loss tips.</p>
+        <div class="search">
+          <input id="foodInput" type="search" placeholder="e.g. large pepperoni pizza, black coffee, chicken biryani" />
+          <button id="checkBtn">Estimate Calories</button>
+        </div>
+        <p class="hint">Be specific for better results — try sizes like "large", "small", or descriptors like "grilled".</p>
+      </div>
+    </section>
+
+    <section id="tool" class="card tool">
+      <h3>AI Calorie Estimator</h3>
+      <div id="result" class="resultbox">
+        <div class="placeholder">Enter a food name and click <strong>Estimate Calories</strong>.</div>
+      </div>
+
+      <div class="controls">
+        <button id="addBtn" class="muted">Add to Plate</button>
+        <button id="clearPlate" class="muted">Clear Plate</button>
+      </div>
+
+      <div class="plate card">
+        <h4>Your Plate</h4>
+        <ul id="plateList" class="plate-list"></ul>
+        <p class="total">Total: <span id="totalCal">0</span> kcal</p>
+      </div>
+    </section>
+
+    <section id="tips" class="card tips">
+      <h3>AI Weight-Loss Tips</h3>
+      <ul>
+        <li>Prefer whole foods over processed items — fruits, vegetables, lean protein.</li>
+        <li>Control portions: use smaller plates and measure serving sizes.</li>
+        <li>Stay hydrated — often thirst is mistaken for hunger.</li>
+        <li>Combine cardio with strength training for fat-loss and muscle retention.</li>
+        <li>Track calories and protein to support sustainable weight loss.</li>
+      </ul>
+    </section>
+
+    <section id="blog" class="card blog">
+      <h3>From the Blog</h3>
+      <article>
+        <h4>Top Low-Calorie Foods to Add Today</h4>
+        <p>Leafy greens, apples, cucumbers, and air-popped popcorn are excellent low-calorie choices.</p>
+      </article>
+      <article>
+        <h4>How to Use Fit AI Tracker</h4>
+        <p>Type in your food item, add to plate, and see the total calories to guide your daily intake.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="card contact">
+      <h3>Contact</h3>
+      <p>Have feedback or feature requests? Email us at <a href="mailto:zohabutt722@gmail.com">zohabutt722@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Fit AI Tracker</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
