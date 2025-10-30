@@ -2,7 +2,7 @@
 Fit AI Tracker - GitHub Pages ready site (Light theme, smart AI estimator)
 
 Files included:
-- index.html <meta name="google-site-verification" content="cy3Ic7EaCDDZAZA89csitEIMeyUv0Wy0FRjWsMll1QQ" />
+- index.html 
 - style.css
 - script.js
 - README.md
