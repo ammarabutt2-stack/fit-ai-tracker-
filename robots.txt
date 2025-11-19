@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ammarabutt2-stack.github.io/fit-ai-tracker-/sitemap.xml
